@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:gainsboro;
+}
+.container{
+    padding-top:2rem;
+    height:30rem;
+    width:30rem;
+    background-color: #fff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:2rem;
+}
+.same{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+input{
+    width:10rem;
+    height:2rem;
+}
+button{
+    cursor: pointer;
+    width:10rem;
+    height:3rem;
+    background-color:#c2f578;
+}

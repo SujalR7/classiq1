@@ -300,38 +300,3 @@
   input:hover{
     border-color:none;
   }
-@media screen and (min-width:600px){
-    html{
-        font-size:62.5%;
-    }
-}
-@media screen and (min-width:1024px){
-    html{
-        font-size:100%;
-    }
-}
-@media screen and (min-width:1440px){
-    html{
-        font-size:150%;
-    }
-}
-@media screen and (min-width:2560px){
-    html{
-        font-size:200%;
-    }
-}
-@media screen and (max-width:600px){
-    html{
-        font-size:35%;
-    }
-}
-@media screen and (max-width:425px){
-    html{
-        font-size:30%;
-    }
-}
-@media screen and (max-width:375px){
-    html{
-        font-size:14%;
-    }
-}

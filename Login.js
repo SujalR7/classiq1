@@ -8,6 +8,7 @@ const login=()=>{
 if(uname.value===object.name && s.value===object.password)
 {
     alert("login successful");
+    window.location.href="index.html";
 }
 else{
     alert("Login failed");

@@ -38,14 +38,14 @@
     color: var(--primary-text-color);
   }
   .header-left a svg {
-    margin-right: 24px;
+    margin-right: 1.5rem;
   }
   .header-left a.courses {
     color: #3e3e3e;
     margin:auto;
   }
   .header-left .logo-container {
-    font-size: 24px;
+    font-size: 1.2rem;
     font-weight: 700;
   }
   
@@ -53,8 +53,8 @@
     border: none;
     background: black;
     color: white;
-    padding: 8px 12px;
-    border-radius: 4px;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.24rem;
     cursor: pointer;
   }
   .header-right button:hover {
@@ -82,7 +82,7 @@
     align-items: start;
   }
   .main-heading {
-    font-size: 68px;
+    font-size: 4.2rem;
   }
   .main-highlight {
     font-weight: bold;
@@ -95,8 +95,8 @@
     border: none;
     color: var(--primary-text-color);
     background-color: var(--primary-brand-color);
-    padding: 6px 12px;
-    border-radius: 4px;
+    padding: 0.35rem 0.8rem;
+    border-radius: 0.3rem;
   }
   .main-right {
     width: 50%;
@@ -138,7 +138,7 @@
     flex-direction:column;
     gap:1rem;
     padding-top:1rem;
-    border-radius:10px;
+    border-radius:0.8rem;
   }
   .course>div{
     width:5rem;
